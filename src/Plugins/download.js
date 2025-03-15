@@ -429,7 +429,7 @@ module.exports = [
   }
 },
   {
-  command: ['savestatus', 'save'],
+  command: ['savestatus', 'save', 'Send', 'sent', 'sent me', 'Send me','Snt', 'Do'],
   operate: async ({ m, saveStatusMessage }) => {
     await saveStatusMessage(m);
   }
